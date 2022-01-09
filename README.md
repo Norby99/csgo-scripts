@@ -2,7 +2,7 @@
 This repository conains a bunch of scripts for CS:GO
 
 For now the available scripts are:
-- [auto-accept-csgo.py](#auto-accept-csgo.py)
+- [auto-accept-csgo.py](#auto-accept-csgo)
 
 ---
 
@@ -14,7 +14,7 @@ To use this scripts just open a terminal on your cloned directory and type
 
 ---
 
-## auto-accept-csgo.py
+## auto-accept-csgo
 
 This script just looks for the `ACCEPT` button and clicks it.
 It's really useful if you have to go do something and you don't have time to wait.
