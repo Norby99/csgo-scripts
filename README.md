@@ -1,5 +1,5 @@
 # csgo-scripts
-This repository conains a bunch of scripts for CS:GO
+This repository contains a bunch of scripts for CS:GO
 
 For now the available scripts are:
 - [auto-accept-csgo.py](#auto-accept-csgo)
@@ -8,10 +8,10 @@ For now the available scripts are:
 
 ## How to use
 
-To use this scripts just open a terminal on your cloned directory and type
-
-    $ python3 -m pip install -r requirements.txt
-
+To use this scripts just open a terminal on your cloned directory and type:
+```python3
+python3 -m pip install -r requirements.txt
+```
 ---
 
 ## auto-accept-csgo
