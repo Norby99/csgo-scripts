@@ -12,7 +12,6 @@ class AutoAccept:
             self.data = json.load(f)
         
         imageURL = self.data['auto-accept-images'][self.data['language']]
-        print(imageURL)
         self.img_accept_mm = cv2.cvtColor(np.array(Image.open(urlopen(imageURL))), cv2.COLOR_BGR2GRAY)
         
     def get_screenshot(self):
