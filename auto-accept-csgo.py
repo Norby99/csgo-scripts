@@ -24,11 +24,11 @@ class AutoAccept:
         loc = np.where(res >= threshold)
             
         for pt in zip(*loc[::-1]):
-            self.coordiantes = (pt[0]+w/2, pt[1]+h/2)
+            self.coordinates = (pt[0]+w/2, pt[1]+h/2)
             return True
 
     def click_accept(self):
-        pyautogui.click(self.coordiantes)
+        pyautogui.click(self.coordinates)
             
 if __name__ == "__main__":
     a = AutoAccept()
