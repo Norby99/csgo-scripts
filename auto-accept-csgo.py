@@ -20,7 +20,7 @@ class AutoAccept:
     def compare_images(self):
         w, h = self.img_accept_mm.shape[::-1]
         res = cv2.matchTemplate(self.get_screenshot(), self.img_accept_mm, cv2.TM_CCOEFF_NORMED)
-        threshold = 0.8
+        threshold = 0.6
         loc = np.where(res >= threshold)
             
         for pt in zip(*loc[::-1]):
